@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+// import 'package:internflutter/screens/detail_screen.dart';
+// import 'package:internflutter/screens/home_screen.dart';
+// import 'package:internflutter/screens/search_screen.dart';
 import 'package:internflutter/screens/splash_screen.dart';
 
 void main() {
@@ -10,13 +13,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Online Store',
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
-      home: const SplashScreen(),
-    );
+        title: 'Online Store',
+        debugShowCheckedModeBanner: false,
+        theme: ThemeData(
+          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+          useMaterial3: true,
+        ),
+        home: SplashScreen());
   }
 }

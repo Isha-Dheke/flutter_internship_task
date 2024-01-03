@@ -49,7 +49,7 @@ class _SplashScreenState extends State<SplashScreen>
                   offset: Offset(0, offsetY),
                   child: Transform.scale(
                     scale: scale,
-                    child: Center(
+                    child: const Center(
                       child: Image(
                         height: 200,
                         width: 200,
@@ -61,7 +61,7 @@ class _SplashScreenState extends State<SplashScreen>
               },
             ),
             SizedBox(
-              height: MediaQuery.of(context).size.height * .100,
+              height: MediaQuery.of(context).size.height * .0,
             ),
             const Align(
                 alignment: Alignment.center,
